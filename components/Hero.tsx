@@ -7,7 +7,7 @@ export default function Hero() {
     try {
       const link = document.createElement('a')
       link.href = '/cv.pdf'
-      link.download = 'CV_Juan_Felipe_Henao_Tovar.pdf'
+      link.download = 'CV Juan Felipe Henao Tovar.pdf'
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)

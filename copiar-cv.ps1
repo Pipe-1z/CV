@@ -7,6 +7,7 @@ Write-Host "Buscando el archivo 'CV Juan Felipe Henao Tovar.pdf'..." -Foreground
 $archivos = @(
     "$env:USERPROFILE\Documents\CV Juan Felipe Henao Tovar.pdf",
     "$env:USERPROFILE\Downloads\CV Juan Felipe Henao Tovar.pdf",
+    "$env:USERPROFILE\Downloads\CV Juan Felipe Henao Tovar.pdf.pdf",
     "$env:USERPROFILE\Desktop\CV Juan Felipe Henao Tovar.pdf",
     ".\CV Juan Felipe Henao Tovar.pdf"
 )
